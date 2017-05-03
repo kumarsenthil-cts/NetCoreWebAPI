@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.0",
-    "signature": "be35e27118c847435190a4e977d5b0b9a55404e1"
+    "signature": "d4ab5875626980f8f3e45ff74bb94568b3dba98e"
   },
   "compilationOptions": {
     "defines": [
@@ -26,7 +26,8 @@
           "Microsoft.Extensions.Logging": "1.0.0",
           "Microsoft.Extensions.Logging.Console": "1.0.0",
           "Microsoft.Extensions.Logging.Debug": "1.0.0",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0"
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
+          "Microsoft.Extensions.Configuration.CommandLine": "1.0.0"
         },
         "runtime": {
           "NetCoreWebAPI.dll": {}
@@ -730,6 +731,17 @@
         },
         "compile": {
           "lib/netstandard1.1/Microsoft.Extensions.Configuration.Binder.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.CommandLine/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "1.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Extensions.Configuration.CommandLine.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.1/Microsoft.Extensions.Configuration.CommandLine.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration.EnvironmentVariables/1.0.0": {
@@ -3084,6 +3096,11 @@
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-kK8QuBcPQtmKJCkC9enc1uMRFa++mPTuVNm2K5jDVXcAYKRBcFSbdEBvIe1JIgA6dEsAQeqjfHfKSaUJ8f5NFQ=="
+    },
+    "Microsoft.Extensions.Configuration.CommandLine/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ofxSCmUb2phEzIF0J+ZZaMLvVEgSENjIQMghY/bLePXdAH2Q7Lpl1q2fMqkp5rYc6gnkUsup7a04VGfKqwnpsA=="
     },
     "Microsoft.Extensions.Configuration.EnvironmentVariables/1.0.0": {
       "type": "package",
